@@ -31,11 +31,11 @@ export default class Kartya {
     kartyaLetrehoz() {
 
       this.szuloElem.append(`
-                      <div class="kartyaSingle"> 
+                      <div class="kartyasingle"> 
                           <div class="card-body">
-                              <h3 class="card-title"> ${this.#kartya.eleresi}</h3> 
-                              <img class="kartyaKep"  data-id="${this.#kartya.cime}" id="${this.#kartya.cime}" src="${this.#kartya.eleresi}" alt="${this.#kartya.cime}"
-                              <p class="card-text"> ${this.#kartya.cime} </p>  
+                              <h3 class="card-title"> ${this.#kartya.cime}</h3> 
+                              <div class="kartyakep-tarto"><img class="kartyakep"  data-id="${this.#kartya.cime}" id="${this.#kartya.cime}" src="${this.#kartya.eleresi}" alt="${this.#kartya.cime}"
+                              </div>
                       </div>
                       </div>`);
     
