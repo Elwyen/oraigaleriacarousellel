@@ -19,7 +19,6 @@ export default class Kartya {
             console.log(clickedKartya, "teszt");
             const e = new CustomEvent("kivalaszt", { detail: clickedKartya });
             window.dispatchEvent(e);
-            console.log(clickedKartya.cime);
         });
     }
 
