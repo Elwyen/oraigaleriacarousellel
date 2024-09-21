@@ -12,7 +12,7 @@ export default class Kartya {
   
     #esemenyKezelo() {
         // Use a more specific selector and read data from `data-` attributes
-        this.szuloElem.find(".kartyaKep").off("click").on("click", (event) => {
+        this.szuloElem.find(".kartyakep").off("click").on("click", (event) => {
             const imageId = $(event.currentTarget).attr("data-id"); // Get the data-id
             const clickedKartya = this.#getKartyaById(imageId); // Get the kartya object
             
