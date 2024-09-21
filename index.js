@@ -4,8 +4,8 @@
 // 4. ha rakattintunk a kiskepre, akkor az a kep jelenjen meg felul nagyba
 // 5. nyilakkal leptetni lehessen
 import { kepLista } from "./adatok.js";
-import Kartya from "./Kartya.js";
-import Kartyak from "./Kartyak.js";
+import Kartya from "/view/Kartya.js";
+import Kartyak from "/view/Kartyak.js";
 let kivalasztottItem = null;
 
 
